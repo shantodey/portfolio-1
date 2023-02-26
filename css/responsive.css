@@ -1,0 +1,273 @@
+@media (min-width: 320px) and ( max-width: 575.98px){
+    .navbar-nav{
+        text-align: center;
+        z-index: 3;
+    }
+    /* home */
+    .media_icon {
+        z-index: 999;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+         transform: translateX(-50%);
+        right: 1%;
+    }
+    .media_icon a:hover {
+        transform: translateY(-25px);
+      }
+    .content{
+        top: 10%;
+        left: 0;
+        margin: 0px 83px 0px 0px;
+    }
+    .swiper-slide-active .content h2 {
+      
+        padding-left: 10%;
+    }
+    .content h2 {
+       
+        font-size: 26pt;
+       
+    }
+    .swiper-slide-active .content p {
+        
+        width: 100%;
+        font-size: 14px;
+    }
+    .swiper{
+        width: 100%;
+    }
+
+    .mySwiper {
+        left: 0;
+    }
+    /* our self */
+    .composition_main {
+        width: 100%;
+        height: 327px;
+        padding: 25px;
+        margin-top: 85px;
+    }
+    #our_self .big_text {
+       
+        font-size: 22pt;
+       
+    }
+    .my_services{
+        clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+       
+    }
+    /* revew */
+    .customer_review_two{
+        display: none;
+    }
+    .customer_review_two_one img {
+        
+        width: 19%;
+    }
+    .cs_rv{
+        margin-bottom: 15px;
+    }
+    .customer_review_two::before {
+        display: none;
+    }
+    .customer_review_two::after {
+       display: none;
+    }
+    
+    /* i can do */
+   .bying_psd{
+    margin-bottom: 15px;
+   }
+   #see-more-btn{
+    width: 50%;
+   }
+  
+    /* footer */
+    .footer-content .contact-widget {
+        margin-left: 0;
+    }
+    .footer-bottom .footer-nav {
+        position: relative;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (min-width: 576px) and ( max-width: 767.98px){
+    .navbar-nav{
+        text-align: center;
+        z-index: 3;
+    }
+    /* home */
+    .media_icon {
+        z-index: 999;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+         transform: translateX(-50%);
+        right: 10px;
+    }
+    .media_icon a:hover {
+        transform: translateY(-25px);
+      }
+    .content{
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        margin: 0px 83px 0px 15px;
+    }
+    .swiper-slide-active .content p {
+        
+        width: 100%;
+        font-size: 14px;
+    }
+    .swiper{
+        width: 100%;
+    }
+
+    .mySwiper {
+        left: 0;
+    }
+    /* our self */
+    .composition_main {
+        width: 100%;
+       height: 70vh;
+    }
+    .my_services{
+        clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+       
+    }
+    /* revew */
+    .customer_review_two_one img {
+        top: 50%;
+        transform: translateY(-40%);
+        left: 0;
+        width: 15%;
+    }
+    .cs_rv{
+        margin-bottom: 15px;
+    }
+    .customer_review_two{
+        display: none;
+    }
+    .customer_review_two_one_tow {
+        padding-left: 0;
+    }
+    .customer_review_two_one_one{
+        position: relative;
+    }
+    .customer_review_two_one_one ul{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .customer_review_two::before {
+        display: none;
+    }
+    .customer_review_two::after {
+       display: none;
+    }
+  
+    /* i can do */
+   .bying_psd{
+    margin-bottom: 15px;
+   }
+   #see-more-btn {
+	width: 40%;
+	}
+
+  
+    /* footer */
+    .footer-content .contact-widget {
+        margin-left: 0;
+    }
+    .footer-bottom .footer-nav {
+        position: relative;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) and ( max-width: 991.98px){
+    .navbar-nav{
+        text-align: center;
+      
+    }
+    /* home */
+    .media_icon{
+        margin-left: 50px;
+    }
+    .media_icon a:hover {
+        transform: translateX(-25px);
+    }
+   
+    .swiper-slide-active .content p {
+        
+        width: 85%;
+        font-size: 14px;
+    }
+    .customer_review_two{
+        display: none;
+    }
+    /* our self */
+    .composition_main {
+       
+       padding: 25px;
+       margin-top: 85px;
+    }
+    .my_services{
+        clip-path: polygon(0 0, 100% 0%, 100% 94%, 0% 100%);
+       
+    }
+    /* revew */
+    .customer_review_two_one img {
+        top: 50%;
+        transform: translateY(-40%);
+        left: 0;
+        width: 15%;
+    }
+    .cs_rv{
+        display: none;
+    }
+    .customer_review{
+        order: 1;
+    }
+   
+
+   
+    /* i can do */
+   .bying_psd{
+    margin-bottom: 15px;
+   }
+   #see-more-btn {
+	width: 25%;
+    }
+
+  
+    /* footer */
+    .footer-content .contact-widget {
+        margin-left: 0;
+    }
+    .footer-bottom .footer-nav {
+        position: relative;
+        text-align: center;
+    }
+    .fot{
+        justify-content: center;
+    }
+}

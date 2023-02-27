@@ -226,7 +226,7 @@ if (progressnumber <= 33) {
     // see-more button end
 
     $(window).on("load",function(){
-      $("#preloader").delay(200).fadeOut(2000)
+      $("#preloader").delay(200).fadeOut(400)
     })
     
 

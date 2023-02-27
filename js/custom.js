@@ -224,10 +224,12 @@ if (progressnumber <= 33) {
     });
 
     // see-more button end
-
-    $(window).on("load",function(){
-      $("#preloader").delay(200).fadeOut(400)
-    })
+	// preloder statr 		
+   $(window).on('load', function () {
+  setTimeout(function () {
+    $('#preloader').fadeOut();
+  }, 200);
+});
     
 
 
